@@ -38,6 +38,7 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "serialport": ">=5.0.0"
+    "serialport": ">=5.0.0",
+    "perf_hooks": "latest"
   }
 }
