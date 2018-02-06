@@ -1,18 +1,46 @@
 {
-  "name": "node-omron-hvc-p2",
-  "version": "0.1.2",
+  "_from": "git+https://github.com/ScalaInc/node-omron-hvc-p2.git",
+  "_id": "node-omron-hvc-p2@0.1.2",
+  "_inBundle": false,
+  "_location": "/node-omron-hvc-p2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/ScalaInc/node-omron-hvc-p2.git",
+    "rawSpec": "https://github.com/ScalaInc/node-omron-hvc-p2.git",
+    "saveSpec": "git+https://github.com/ScalaInc/node-omron-hvc-p2.git",
+    "fetchSpec": "https://github.com/ScalaInc/node-omron-hvc-p2.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ScalaInc/node-omron-hvc-p2.git#45fe6ad53eb2e60426a8d6940cb908a5283deead",
+  "_spec": "https://github.com/ScalaInc/node-omron-hvc-p2.git",
+  "_where": "/Users/rhall/Documents/git_repos/github/svcs-target-poc-omron",
+  "author": {
+    "name": "Futomi Hatano",
+    "email": "futomi.hatano@gmail.com",
+    "url": "https://github.com/futomi"
+  },
+  "bugs": {
+    "url": "https://github.com/ScalaInc/node-omron-hvc-p2/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "serialport": ">=5.0.0"
+  },
+  "deprecated": false,
   "description": "The node-omron-hvc-p2 is a Node.js module which allows you to communicate with the image sensing device \"OMRON Human Vision Components (HVC-P2)\" through a USB serial port.",
-  "main": "./lib/HvcP2.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "files": [
     "lib",
     "images"
   ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/futomi",
   "keywords": [
     "OMRON",
     "Human Vision Components",
@@ -29,15 +57,16 @@
     "EXPRESSION ESTIMATION",
     "FACE RECOGNITION"
   ],
-  "homepage": "https://github.com/futomi",
-  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "readmeFilename": "README.md",
   "license": "MIT",
+  "main": "./lib/HvcP2.js",
+  "name": "node-omron-hvc-p2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/futomi/node-omron-hvc-p2.git"
+    "url": "git+https://github.com/ScalaInc/node-omron-hvc-p2.git"
   },
-  "readmeFilename": "README.md",
-  "dependencies": {
-    "serialport": ">=5.0.0"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.2"
 }
