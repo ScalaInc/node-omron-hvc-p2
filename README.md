@@ -29,7 +29,9 @@ The node-omron-hvc-p2 supports all functions supported by the [HVC-P2](http://ww
   * If the serialport module has been already installed in you host computer, check the version. The node-omron-hvc-p2 now does not support older versions of the serialport module than 5.0.0 .
 * [node-gd](https://github.com/y-a-v-a/node-gd) (Optional, for Linux, Mac)
 * [lwip](https://github.com/EyalAr/lwip) (Optional, for Windows)
-# [jimp](https://https://github.com/oliver-moran/jimp) (Optional, for Windows - no pain in the ass to compile node-gyp dependencies on Windows)
+# [jimp](https://https://github.com/oliver-moran/jimp) (Optional, for Windows - easier to install than outdated lwip dependencies)
+# [sharp](https://github.com/lovell/sharp) (Optional, for Windows - coming next - for much better performance than lwip and jimp)
+
 
 ## Installation
 
@@ -39,7 +41,9 @@ $ npm install serialport
 $ npm install node-omron-hvc-p2
 ```
 
-The node-omron-hvc-p2 requires an image processing module in order to create images captured by the HVC-P2. For Linux and Mac, the [node-gd](https://github.com/y-a-v-a/node-gd) is required. For Windows, the [jimp](https://https://github.com/oliver-moran/jimp) or (blargh - yechh) [lwip](https://github.com/EyalAr/lwip) is required.
+The node-omron-hvc-p2 requires an image processing module in order to create images captured by the HVC-P2. For Linux and Mac, the [node-gd](https://github.com/y-a-v-a/node-gd) is required.
+For Windows, the [jimp](https://https://github.com/oliver-moran/jimp) or [lwip](https://github.com/EyalAr/lwip) libs (one or the other) is required. Adding in support for [sharp](https://github.com/lovell/sharp) which should provide much better performance than lwip and jimp on Windows)
+
 
 If you don't need to get images captured by the HVC-P2, the image processing modules are not required.
 
@@ -72,10 +76,14 @@ $ npm install node-gd
 
 ### Windows
 
-It is recommended to install [lwip](https://github.com/EyalAr/lwip).
+It is recommended to install [lwip](https://github.com/EyalAr/lwip) or [jimp](https://https://github.com/oliver-moran/jimp) if you have issues getting lwip to install/compile.
 
 ```
 $ npm install lwip
+```
+or
+```
+$ npm install jimp
 ```
 
 ---------------------------------------
