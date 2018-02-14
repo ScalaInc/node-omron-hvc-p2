@@ -35,7 +35,8 @@
   },
   "bundleDependencies": [],
   "dependencies": {
-    "serialport": "^6.0.5"
+    "serialport": "^6.0.5",
+    "perf_hooks": "latest"
   },
    "engines" : {
   	"node" : ">7"
