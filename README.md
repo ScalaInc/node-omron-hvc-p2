@@ -24,13 +24,13 @@ The node-omron-hvc-p2 supports all functions supported by the [HVC-P2](http://ww
 
 ## Dependencies
 
-* [Node.js](https://nodejs.org/en/) 6 +
-* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport) 5.0.0 +
-  * If the serialport module has been already installed in you host computer, check the version. The node-omron-hvc-p2 now does not support older versions of the serialport module than 5.0.0 .
+* [Node.js](https://nodejs.org/en/) 7 +  (serialport dependency requires 7+)
+* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport) 6.0.0 +
+  * If the serialport module has been already installed in you host computer, check the version. The node-omron-hvc-p2 now does not support older versions of the serialport module prior to 5.0.0 .
 * [node-gd](https://github.com/y-a-v-a/node-gd) (Optional, for Linux, Mac)
 * [lwip](https://github.com/EyalAr/lwip) (Optional, for Windows)
-# [jimp](https://https://github.com/oliver-moran/jimp) (Optional, for Windows - easier to install than outdated lwip dependencies)
-# [sharp](https://github.com/lovell/sharp) (Optional, for Windows - coming next - for much better performance than lwip and jimp)
+* [jimp](https://https://github.com/oliver-moran/jimp) (Optional, for Windows - easier to install than outdated lwip dependencies)
+* [sharp](https://github.com/lovell/sharp) (Optional, for Windows - coming next - for much better performance than lwip and jimp)
 
 
 ## Installation

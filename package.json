@@ -30,7 +30,7 @@
       "url": "https://github.com/rmhall"
     },
     {
-     "name": "Chris Barr",
+      "name": "Chris Barr",
       "url": "https://github.com/cbarr-scala"
     }
   ],
@@ -42,8 +42,8 @@
     "serialport": "^6.0.5",
     "perf_hooks": "latest"
   },
-   "engines" : {
-  	"node" : ">7"
+  "engines": {
+      "node": ">7"
   },
   "deprecated": false,
   "description": "The node-omron-hvc-p2 is a Node.js module which allows you to communicate with the image sensing device \"OMRON Human Vision Components (HVC-P2)\" through a USB serial port.",
