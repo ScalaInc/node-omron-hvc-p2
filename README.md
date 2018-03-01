@@ -1,6 +1,8 @@
 node-omron-hvc-p2
 ===============
 
+NOTE - This fork is a work in progress - not suggessted for production - the support for sharp currently has some huge memory leaks due to how buffers are handled in node - you've been warned! :)
+
 [[Japanese (日本語)](README_ja.md)]
 
 The node-omron-hvc-p2 is a Node.js module which allows you to communicate with the image sensing device "[OMRON Human Vision Components (HVC-P2)](http://www.omron.com/ecb/products/mobile/hvc_p2/)" through a USB serial port.
